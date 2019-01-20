@@ -9,13 +9,6 @@ from random import randint
 Firm = namedtuple('Firm', ['name', 'qprofit1', 'qprofit2', 'qprofit3', 'qprofit4', 'yprofit'])
 Firm.__new__.__defaults__ = ('Firm', 0, 0, 0, 0, 0)
 
-# firms = [
-#     Firm(name='Apple', qprofit1=randint(10000000, 999999999), qprofit2=randint(10000000, 999999999), qprofit3=randint(10000000, 999999999), qprofit4=randint(10000000, 999999999)),
-#     Firm(name='Samsung', qprofit1=randint(10000000, 999999999), qprofit2=randint(10000000, 999999999), qprofit3=randint(10000000, 999999999), qprofit4=randint(10000000, 999999999)),
-#     Firm(name='Google', qprofit1=randint(10000000, 999999999), qprofit2=randint(10000000, 999999999), qprofit3=randint(10000000, 999999999), qprofit4=randint(10000000, 999999999)),
-#     Firm(name='Amazon', qprofit1=randint(10000000, 999999999), qprofit2=randint(10000000, 999999999), qprofit3=randint(10000000, 999999999), qprofit4=randint(10000000, 999999999))
-#     ]
-
 firms = []
 asw = 'y'
 

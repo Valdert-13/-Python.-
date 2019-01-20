@@ -72,33 +72,16 @@ def hex_sum(a, b):
     return c
 
 
-# def hex_mult(a, b):
-#     a = deque(a)
-#     b = deque(b)
-#     print(a, b, sep='\n')
-#     prom = deque()
-#     for i, el in enumerate(b):
-#         line = []
-#         for j in a:
-#             line.append(el * j)
-#         for _ in range(i):
-#             line.append(0)
-#         prom.append(line)
-#     print(prom)
-
 
 first_operand = list(input('Введите первый шестнадцатиричный операнд: ').upper())
 second_operand = list(input('Введите второй шестнадцатиричный операнд: ').upper())
 
-# first_operand = 'af2'.upper()
-# second_operand = 'f3'.upper()
 
 first_operand_hex = hex_to_dec(first_operand)
 second_operand_hex = hex_to_dec(second_operand)
 
 pre_result_sum = hex_sum(first_operand_hex, second_operand_hex)
 
-# pre_result_mult = hex_mult(first_operand_hex, second_operand_hex)
 
 result_sum = dec_to_hex(pre_result_sum)
 
