@@ -104,7 +104,7 @@ if __name__ == '__main__':
     calc_size(var_list)
     del var_list
 
-# Python 3.6.6 (64 bit)
+# Python 3.7 (64 bit)
 # Решение задачи вариантом 1:
 # Результат:  5
 # Список переменных:
